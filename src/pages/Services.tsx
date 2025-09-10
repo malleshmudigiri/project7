@@ -127,7 +127,7 @@
 // //       {/* Hero Section */}
 
 // //       {/* Hero Section */}
-// // <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('./public/2.png')" }}>
+// // <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('.//2.png')" }}>
 // //   <div className="flex items-center justify-center w-full h-full bg-black bg-opacity-50">
 // //     <h1 className="text-white text-6xl font-bold">SERVICENOW</h1>
 // //   </div>
@@ -626,7 +626,7 @@
 // //     <div className="font-sans text-gray-900">
 
 // //       {/* Hero Section */}
-// //       <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('./public/2.png')" }}>
+// //       <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('.//2.png')" }}>
 // //         <div className="flex items-center justify-center w-full h-full bg-black bg-opacity-50">
 // //           <h1 className="text-white text-6xl font-bold">SERVICENOW</h1>
 // //         </div>
@@ -775,7 +775,7 @@
 // //       <section
 // //         className="relative py-24 text-center text-white"
 // //         style={{
-// //           backgroundImage: "url('./public/AI.jpg')",
+// //           backgroundImage: "url('.//AI.jpg')",
 // //           backgroundSize: 'cover',
 // //           borderRadius: '0 0 2rem 2rem',
 // //         }}
@@ -887,7 +887,7 @@
 //     <div className="font-sans text-gray-900">
 
 //       {/* Hero Section */}
-//       <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('./public/2.png')" }}>
+//       <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('.//2.png')" }}>
 //         <div className="flex items-center justify-center w-full h-full bg-black bg-opacity-50">
 //           <h1 className="text-white text-6xl font-bold">SERVICENOW</h1>
 //         </div>
@@ -1055,7 +1055,7 @@
 
 //       {/* Book Your Demo */}
 //       <section className="relative py-24 text-center text-white" style={{
-//           backgroundImage: "url('./public/AI.jpg')",
+//           backgroundImage: "url('.//AI.jpg')",
 //           backgroundSize: 'cover',
 //           borderRadius: '0 0 2rem 2rem',
 //         }}>
@@ -1103,8 +1103,8 @@
 // };
 
 // export default ServiceNowPage;
+import { BookOpen, Building, Cloud, Globe, Heart, Shield, Users } from 'lucide-react';
 import React, { useRef } from 'react';
-import { Cloud, Shield, Users, BarChart, Heart, Building, BookOpen, Globe } from 'lucide-react';
 
 const ServiceNowPage: React.FC = () => {
   const carouselRef = useRef<HTMLDivElement>(null);
